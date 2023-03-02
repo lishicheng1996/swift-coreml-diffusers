@@ -40,7 +40,7 @@ extension ModelInfo {
         // Pattern: https://huggingface.co/pcuenq/coreml-stable-diffusion/resolve/main/coreml-stable-diffusion-v1-5_original_compiled.zip
         let suffix = runningOnMac ? originalAttentionSuffix : splitAttentionName
         let repo = modelId.split(separator: "/").last!
-        return URL(string: "https://huggingface.co/\(modelId)/resolve/main/\(repo)_\(suffix).zip")!
+        return URL(string: "path/to/yoour/model/Resources.zip")!
     }
     
     /// Best units for current platform.

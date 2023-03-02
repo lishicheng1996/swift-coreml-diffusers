@@ -42,7 +42,7 @@ class GenerationContext: ObservableObject {
     @Published var negativePrompt = ""
     
     // FIXME: Double to support the slider component
-    @Published var steps = 25.0
+    @Published var steps = 50.0
     @Published var numImages = 1.0
     @Published var seed = -1.0
     @Published var guidanceScale = 7.5
